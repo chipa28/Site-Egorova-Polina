@@ -1,0 +1,242 @@
+body{
+  margin: 0;
+  background-color: #FFFFFF;
+}
+
+
+.pink_background {
+  height:551px;
+  margin: 0;
+  background-color: #F9EEEC;
+}
+
+.center {
+  width: 877px; /* Ширина элемента в пикселах */
+  padding:0; /* Поля вокруг текста */
+  margin: auto;
+  background-color: rgba(235,236,235,0.30);
+}
+
+h1{
+  margin: 0;
+  padding-left:60px;
+  padding-top: 30px;
+  font-family: Courier;
+  font-weight: normal;
+  font-size: 46px;
+  color: rgba(0,0,0,0.40);
+  letter-spacing: 0;
+}
+
+
+#main_img {
+  width: 168px;
+  height: 224px;
+  border: 1px solid #CE8E06;
+  float: left;
+  margin: 30px 0 0 60px;
+}
+
+#first_text {
+  margin: 38px 0 0 251px;
+  opacity: 0.95;
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  color: #000000;
+  line-height: 20px;
+}
+
+#first_text .second_text {
+  margin-top: 10px;
+  line-height: 20px;
+}
+
+ul{
+  margin: 1px 0 0 251px;
+  opacity: 0.95;
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  color: #000000;
+  line-height: 20px;
+}
+
+h2 {
+  margin: 40px 0 0 60px;
+  font-weight: normal;
+  font-family: HelveticaNeue;
+  font-size: 18px;
+  color: #5B8A98;
+}
+
+#Job {
+  margin-left: 60px;
+}
+
+#Job .first_date {
+  margin-top:4px;
+  float: left;
+  opacity: 0.95;
+  font-family: HelveticaNeue;
+  font-size: 12px;
+  color: #000000;
+}
+
+#Job .first_job {
+  margin-top: 24px;
+  margin-left: 154px;
+  opacity: 0.95;
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  color: #000000;
+  line-height: 20px;
+}
+
+#Job .second_date {
+  margin-top: 14px;
+  float: left;
+  opacity: 0.95;
+  font-family: HelveticaNeue;
+  font-size: 12px;
+  color: #000000;
+}
+
+#Job .second_job {
+    margin-top: 10px;
+    margin-left: 154px;
+    opacity: 0.95;
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    color: #000000;
+    line-height: 20px;
+}
+
+.grey_background {
+  margin: 0;
+  height: 590px;
+}
+
+h3 {
+  margin: 40px 0 0 60px;
+  font-weight: normal;
+  font-family: HelveticaNeue;
+  font-size: 18px;
+  color: #5B8A98;
+}
+
+.grey_background p {
+  display: inline-block;
+  margin: 30px 0 0 60px;
+  font-family: HelveticaNeue-Light;
+  font-size: 20px;
+  color: #CE8E06;
+  border-bottom: 1px solid #CE8E06;
+}
+
+a {
+  text-decoration:none;
+}
+
+#description {
+  padding-left: 60px;
+  padding-top: 7px;
+  opacity: 0.95;
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  color: #000000;
+  line-height: 20px;
+}
+
+.second_pink_background {
+  padding-left: 40px;
+  margin: 0;
+  height: 64px;
+  background-color: #F9EEEC;
+}
+
+
+.second_pink_background img {
+  float: left;
+  padding: 20px 0 20px 20px;
+}
+
+.second_pink_background p {
+  padding-left: 10px;
+  padding-top: 5px;
+  float: left;
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  color: #000000;
+  line-height: 20px;
+}
+
+
+
+
+
+
+
+/*
+#line {
+  margin-left: 196px;
+}
+
+.description p {
+float:center;
+margin:10px 296px 0px 196px;
+min-width: 893px;
+overflow:hidden;
+text-align: justify;
+font-family: SFUIText-Light;
+font-size: 18px;
+color: #333333;
+line-height: 27px;
+}
+
+.main_img {
+  margin-top: 15px;
+  margin-left: -10px;
+}
+
+.box {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+  margin-left: -10px;
+  margin-top: -5px;
+  width: 1292px;
+  height: 720px;
+  background-color: #FFFFFF;
+}
+
+.box p {
+  height: 5px;
+  margin: 175px 0 0 700px;
+  font-family: SFUIDisplay-Thin;
+  font-size: 48px;
+  color: #333333;
+}
+
+.box p1 {
+  margin-top: 80px;
+  font-family: SFUIText-Light;
+  font-size: 16px;
+  color: #333333;
+
+}
+.box img {
+  height: 100%;
+  margin: 0 75px 0 250px;
+}
+/* <div id="line"> <img src="file:///Users/osx/Documents/flo_site/line.png"> </div>
+<div class="description"> <p></p> </div>
+<div class="main_img"> <img src="file:///Users/osx/Documents/flo_site/main_img.png"> </div>
+<div class="box">
+<div>
+<div> <p> Биография </p> </div>
+<div> <p1> Флоренс Леонтайн Мэри Уэлч родилась 28 августа 1986 года <br>
+в Лондоне, Англия. Её мать Эвелин Уэлч, — профессор <br> Колледжа королевы Марии в Лондоне, специалист <br>
+по эпохе Ренессанса. </p1> </div>
+<img src="file:///Users/osx/Documents/flo_site/flo_yellow.png"> </div>
+<div> <p2> <a href="https://ru.wikipedia.org/wiki/Florence_and_the_Machine"> Подробнее о биографии > </a> </p2> </div>
+
+</div> */
