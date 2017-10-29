@@ -5,8 +5,8 @@ body{
 
 
 .pink_background {
-  height:551px;
   margin: 0;
+  height:551px;
   background-color: #F9EEEC;
 }
 
@@ -14,14 +14,14 @@ body{
   width: 877px; /* Ширина элемента в пикселах */
   padding:0; /* Поля вокруг текста */
   margin: auto;
-  background-color: rgba(235,236,235,0.30);
+  background-color: #FBFBFB;
 }
 
-h1{
+h1 {
   margin: 0;
   padding-left:60px;
   padding-top: 30px;
-  font-family: Courier;
+  font-family: Ubuntu-Regular;
   font-weight: normal;
   font-size: 46px;
   color: rgba(0,0,0,0.40);
@@ -32,15 +32,15 @@ h1{
 #main_img {
   width: 168px;
   height: 224px;
-  border: 1px solid #CE8E06;
+  border: 1px solid rgba(0,0,0,0.30);
   float: left;
   margin: 30px 0 0 60px;
 }
 
 #first_text {
-  margin: 38px 0 0 251px;
+  margin: 40px 0 0 255px;
   opacity: 0.95;
-  font-family: HelveticaNeue;
+  font-family: Roboto-Regular;
   font-size: 16px;
   color: #000000;
   line-height: 20px;
@@ -51,10 +51,10 @@ h1{
   line-height: 20px;
 }
 
-ul{
-  margin: 1px 0 0 251px;
+ul {
+  margin: 1px 0 0 255px;
   opacity: 0.95;
-  font-family: HelveticaNeue;
+  font-family: Roboto-Regular;
   font-size: 16px;
   color: #000000;
   line-height: 20px;
@@ -63,7 +63,7 @@ ul{
 h2 {
   margin: 40px 0 0 60px;
   font-weight: normal;
-  font-family: HelveticaNeue;
+  font-family: Roboto-Regular;
   font-size: 18px;
   color: #5B8A98;
 }
@@ -73,10 +73,10 @@ h2 {
 }
 
 #Job .first_date {
-  margin-top:4px;
+  margin-top:3px;
   float: left;
   opacity: 0.95;
-  font-family: HelveticaNeue;
+  font-family: Roboto-Regular;
   font-size: 12px;
   color: #000000;
 }
@@ -85,17 +85,17 @@ h2 {
   margin-top: 24px;
   margin-left: 154px;
   opacity: 0.95;
-  font-family: HelveticaNeue;
+  font-family: Roboto-Regular;
   font-size: 16px;
   color: #000000;
   line-height: 20px;
 }
 
 #Job .second_date {
-  margin-top: 14px;
+  margin-top: 13px;
   float: left;
   opacity: 0.95;
-  font-family: HelveticaNeue;
+  font-family: Roboto-Regular;
   font-size: 12px;
   color: #000000;
 }
@@ -104,7 +104,7 @@ h2 {
     margin-top: 10px;
     margin-left: 154px;
     opacity: 0.95;
-    font-family: HelveticaNeue;
+    font-family: Roboto-Regular;
     font-size: 16px;
     color: #000000;
     line-height: 20px;
@@ -112,13 +112,13 @@ h2 {
 
 .grey_background {
   margin: 0;
-  height: 590px;
+  height: 630px;
 }
 
 h3 {
   margin: 40px 0 0 60px;
   font-weight: normal;
-  font-family: HelveticaNeue;
+  font-family: Roboto-Regular;
   font-size: 18px;
   color: #5B8A98;
 }
@@ -126,7 +126,7 @@ h3 {
 .grey_background p {
   display: inline-block;
   margin: 30px 0 0 60px;
-  font-family: HelveticaNeue-Light;
+  font-family: Roboto-Light;
   font-size: 20px;
   color: #CE8E06;
   border-bottom: 1px solid #CE8E06;
@@ -140,7 +140,7 @@ a {
   padding-left: 60px;
   padding-top: 7px;
   opacity: 0.95;
-  font-family: HelveticaNeue;
+  font-family: Roboto-Regular;
   font-size: 16px;
   color: #000000;
   line-height: 20px;
@@ -149,7 +149,7 @@ a {
 .second_pink_background {
   padding-left: 40px;
   margin: 0;
-  height: 64px;
+  height: 84px;
   background-color: #F9EEEC;
 }
 
@@ -160,13 +160,25 @@ a {
 }
 
 .second_pink_background p {
-  padding-left: 10px;
-  padding-top: 5px;
+  padding-left: 15px;
+  padding-top: 17px;
   float: left;
-  font-family: HelveticaNeue;
+  font-family: Roboto-Regular;
   font-size: 16px;
   color: #000000;
   line-height: 20px;
+  /*text-decoration: underline;*/
+}
+
+.second_pink_background p1 {
+  padding-right: 60px;
+  padding-top: 35px;
+  float: right;
+  font-family: Roboto-Regular;
+  font-size: 16px;
+  color: #000000;
+  line-height: 20px;
+  /*text-decoration: underline;*/
 }
 
 
